@@ -1,4 +1,4 @@
-/* Estilos básicos para a página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -24,6 +24,17 @@ h1 {
     margin-bottom: 20px;
 }
 
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
 button {
     padding: 10px 20px;
     font-size: 1.1em;
@@ -39,16 +50,13 @@ button:hover {
     background-color: #45a049;
 }
 
-.output {
+.resultado {
     margin-top: 20px;
     text-align: left;
-    white-space: pre-wrap;
-    word-wrap: break-word;
     font-family: "Courier New", monospace;
     background-color: #f9f9f9;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
-    max-height: 400px;
-    overflow-y: auto;
+    min-height: 40px;
 }
